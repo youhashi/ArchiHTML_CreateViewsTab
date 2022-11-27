@@ -18,6 +18,25 @@ This program will add a Views tab to the element's tab in the output html file a
 
 # Installation
  
+* Recomend
+
+Edit model.js file :[Archi Root directory]\plugins\com.archimatetool.reports_4.10.0.202209150946\templates\html\js\model.js
+
+before(default)
+```javascript
+    west: {
+			size: 350,
+			spacing_open: 8
+		},
+```
+
+after
+```javascript
+    west: {
+			size: 380,
+			spacing_open: 8
+		},
+```
 # Usage
  
 ```bash
@@ -28,7 +47,6 @@ python xxx.py xxx
  
 # Note
  
-注意点などがあれば書く
  
 # Author
  
