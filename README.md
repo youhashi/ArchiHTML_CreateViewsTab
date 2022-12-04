@@ -39,14 +39,30 @@ after
 ```
 # Usage
  
+The argument is the directory in which the index.html file resides.
+If no argument is specified, the current directory where python is running is assumed to be the directory to be processed.
+
 ```powershell
-git clone https://github.com/youhashi/ArchiHTML_CreateViewsTab.git
-cd ArchiHTML_CreateViewsTab
-python ./createviewstab.py [targethtmldirectory]
+> git clone https://github.com/youhashi/ArchiHTML_CreateViewsTab.git
+> cd ArchiHTML_CreateViewsTab
+> python ./createviewstab.py [targethtmldirectory]
 ```
+
 ## Exsample
+
 ```powershell
+> git clone https://github.com/youhashi/ArchiHTML_CreateViewsTab.git
+> cd ArchiHTML_CreateViewsTab/src
 > python ./createviewstab.py C:\archHTMLReportDirectory\archihtml
+```
+
+OR
+
+```powershell
+> git clone https://github.com/youhashi/ArchiHTML_CreateViewsTab.git
+> cp ArchiHTML_CreateViewsTab/src/createviewstab.py c:/htmldirectory/.
+> cd c:/htmldirectory
+> python ./createviewstab.py
 ```
 
  
