@@ -53,7 +53,7 @@ If no argument is specified, the current directory where python is running is as
 > python ./createviewstab.py [targethtmldirectory]
 ```
 
-## Exsample
+## Example
 
 ```powershell
 > git clone https://github.com/youhashi/ArchiHTML_CreateViewsTab.git
