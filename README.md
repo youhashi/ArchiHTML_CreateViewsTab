@@ -39,11 +39,16 @@ after
 ```
 # Usage
  
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python xxx.py xxx
+```powershell
+git clone https://github.com/youhashi/ArchiHTML_CreateViewsTab.git
+cd ArchiHTML_CreateViewsTab
+python ./createviewstab.py [targethtmldirectory]
 ```
+## Exsample
+```powershell
+> python ./createviewstab.py C:\archHTMLReportDirectory\archihtml
+```
+
  
 # Note
  
@@ -51,8 +56,7 @@ python xxx.py xxx
 # Author
  
 * name:yosuke hashimoto
-* E-mail:
  
 # License
  
-free lisence.
+Inherits the license agreement of Archi.
