@@ -75,4 +75,4 @@ OR
  
 # License
  
-Inherits the license agreement of Archi.
+Inherits the license agreement of Archi.This project is MIT as much as Archi is MIT.
