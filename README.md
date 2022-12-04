@@ -18,6 +18,11 @@ This program will add a Views tab to the element's tab in the output html file a
 
 # Installation
  
+Clone or download py file.
+```powershell
+> git clone https://github.com/youhashi/ArchiHTML_CreateViewsTab.git
+```
+
 * Recomend
 
 Edit model.js file :[Archi Root directory]\plugins\com.archimatetool.reports_4.10.0.202209150946\templates\html\js\model.js
