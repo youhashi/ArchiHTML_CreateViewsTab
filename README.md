@@ -11,6 +11,15 @@ Archi adds the views tab to the elements in the output html file and overwrites 
  Archi is a great software for EA modeling. However, it only outputs to html files a portion of what the application can do.
 If an element is drawn in multiple Views, the Analysis tab of the application plays an important role in knowing which View it is drawn in.
 This program will add a Views tab to the element's tab in the output html file and add a hyperlink to the view it is drawing in, overwriting the View tab.
+
+* Before(Default)
+
+![before(default)](./img/before.JPG)
+
+* After
+
+![after](./img/after.JPG)
+
  
 # Requirement
  
